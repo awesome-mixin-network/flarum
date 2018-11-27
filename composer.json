@@ -24,6 +24,14 @@
         {
             "url": "https://github.com/xiudongy/mixin.git",
             "type": "git"
+        }, 
+        {
+            "url": "https://github.com/xiudongy/flarum-ext-reward-mixin.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/xiudongy/flarum-ext-auth-mixin.git",
+            "type": "git"
         }
      ],
     "require": {
@@ -45,7 +53,9 @@
         "flarum/sticky": "dev-master",
         "flarum/subscriptions": "dev-master",
         "flarum/suspend": "dev-master",
-        "flarum/tags": "dev-master"
+        "flarum/tags": "dev-master",
+        "xiudongy/flarum-ext-auth-mixin": "@dev",
+        "xiudongy/flarum-ext-reward-mixin": "@dev"
     },
     "require-dev": {
         "zamseam/mixin": "dev-master"
