@@ -20,26 +20,35 @@
         "source": "https://github.com/flarum/flarum",
         "docs": "https://flarum.org/docs/"
     },
+     "repositories": [
+        {
+            "url": "https://github.com/xiudongy/mixin.git",
+            "type": "git"
+        }
+     ],
     "require": {
-        "flarum/core": "^0.1.0",
-        "flarum/approval": "^0.1.0",
-        "flarum/auth-facebook": "^0.1.0",
-        "flarum/auth-github": "^0.1.0",
-        "flarum/auth-twitter": "^0.1.0",
-        "flarum/bbcode": "^0.1.0",
-        "flarum/emoji": "^0.1.0",
-        "flarum/lang-english": "^0.1.0",
-        "flarum/flags": "^0.1.0",
-        "flarum/likes": "^0.1.0",
-        "flarum/lock": "^0.1.0",
-        "flarum/markdown": "^0.1.0",
-        "flarum/mentions": "^0.1.0",
-        "flarum/pusher": "^0.1.0",
-        "flarum/statistics": "^0.1.0",
-        "flarum/sticky": "^0.1.0",
-        "flarum/subscriptions": "^0.1.0",
-        "flarum/suspend": "^0.1.0",
-        "flarum/tags": "^0.1.0"
+        "flarum/core": "dev-master",
+        "flarum/approval": "dev-master",
+        "flarum/auth-facebook": "dev-master",
+        "flarum/auth-github": "dev-master",
+        "flarum/auth-twitter": "dev-master",
+        "flarum/bbcode": "dev-master",
+        "flarum/emoji": "dev-master",
+        "flarum/lang-english": "dev-master",
+        "flarum/flags": "dev-master",
+        "flarum/likes": "dev-master",
+        "flarum/lock": "dev-master",
+        "flarum/markdown": "dev-master",
+        "flarum/mentions": "dev-master",
+        "flarum/pusher": "dev-master",
+        "flarum/statistics": "dev-master",
+        "flarum/sticky": "dev-master",
+        "flarum/subscriptions": "dev-master",
+        "flarum/suspend": "dev-master",
+        "flarum/tags": "dev-master"
+    },
+    "require-dev": {
+        "zamseam/mixin": "dev-master"
     },
     "config": {
         "preferred-install": "dist",
