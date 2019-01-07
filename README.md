@@ -19,7 +19,10 @@
 
 * **Intergration with Mixin Network.** Can login with Mixin User and Reward with Mixin API.
 
-![screenshot](https://flarum.org/img/screenshot.png)
+![screenshot](http://img.vcdiandian.com/WechatIMG66.png) 
+![screenshot](http://img.vcdiandian.com/WechatIMG68.png) 
+
+
 
 ## Installation
 
